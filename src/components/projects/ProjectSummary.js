@@ -1,4 +1,6 @@
 import React from 'react';
+import {connect} from 'react-redux';
+
 
 const ProjectSummary = ({project}) => {
     return<div className="card z-depth-0 project-summary">
@@ -9,4 +11,5 @@ const ProjectSummary = ({project}) => {
         </div>
     </div>;
 };
-export default ProjectSummary
+
+export default connect()(ProjectSummary);
