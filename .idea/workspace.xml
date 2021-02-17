@@ -2,9 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7de0de73-013c-4091-a6d7-10301eeefeeb" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/config/fbConfig.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/store/actions/projectActions.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/store/actions/projectActions.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/store/reducers/projectReducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/store/reducers/projectReducer.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -88,7 +91,7 @@
       <updated>1613326548959</updated>
       <workItem from="1613326555811" duration="5812000" />
       <workItem from="1613469588348" duration="4106000" />
-      <workItem from="1613474168826" duration="17301000" />
+      <workItem from="1613474168826" duration="26158000" />
     </task>
     <task id="LOCAL-00001" summary="login and signup">
       <created>1613479620002</created>
@@ -125,7 +128,14 @@
       <option name="project" value="LOCAL" />
       <updated>1613494895734</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="adding thunk for async code">
+      <created>1613508654373</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1613508654425</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
