@@ -18,9 +18,14 @@ const store = createStore(rootReducer, compose(
     reduxFirestore(firebase, fbConfig)
 ));
 
+const rrfConfig = {
+    userProfile: 'users',
+    useFirestoreForProfile: true
+}
+
 const rrfProps = {
     firebase,
-    config: fbConfig,
+    config: rrfConfig, fbConfig,
     dispatch: store.dispatch,
     createFirestoreInstance
 };
