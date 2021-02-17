@@ -2,9 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7de0de73-013c-4091-a6d7-10301eeefeeb" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/store/actions/authActions.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/auth/SignIn.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/auth/SignIn.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/dashboard/Dashboard.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/dashboard/Dashboard.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/layouts/Navbar.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/layouts/Navbar.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/store/reducers/rootReducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/store/reducers/rootReducer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/projects/ProjectList.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/projects/ProjectList.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/store/reducers/authReducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/store/reducers/authReducer.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -88,7 +92,7 @@
       <updated>1613326548959</updated>
       <workItem from="1613326555811" duration="5812000" />
       <workItem from="1613469588348" duration="4106000" />
-      <workItem from="1613474168826" duration="30646000" />
+      <workItem from="1613474168826" duration="33680000" />
     </task>
     <task id="LOCAL-00001" summary="login and signup">
       <created>1613479620002</created>
@@ -153,7 +157,14 @@
       <option name="project" value="LOCAL" />
       <updated>1613561124969</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="adding firebase auth">
+      <created>1613562490479</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1613562490479</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -181,7 +192,8 @@
     <MESSAGE value="adding firebase" />
     <MESSAGE value="adding firestore connect to the combine reducers" />
     <MESSAGE value="project details" />
-    <option name="LAST_COMMIT_MESSAGE" value="project details" />
+    <MESSAGE value="adding firebase auth" />
+    <option name="LAST_COMMIT_MESSAGE" value="adding firebase auth" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
 </project>
